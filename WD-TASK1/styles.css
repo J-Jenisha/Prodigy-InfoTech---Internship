@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to right, #3a4fb7, #33ccff);
+    z-index: 1000;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0;
+  }
+  
+  nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    color: #000;
+  }
+  
+  .section {
+    padding: 100px 20px;
+    min-height: 100vh;
+  }
+  
+  #home {
+    background: linear-gradient(to right, #2fafda, #0066ff);
+    color: white;
+    text-align: center;
+  }
+  
+  #about, #internships, #contact {
+    background: #dad6d6;
+    color: #352f2f;
+    text-align: center;
+  }
+  
+  h1, h2 ,h3{
+    margin-top: 0;
+    font-size: 2.5em;
+    font-weight:700
+  }
+  
+  p {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  
